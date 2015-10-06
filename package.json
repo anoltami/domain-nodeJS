@@ -1,0 +1,23 @@
+{
+  "name": "domaine-nodejs",
+  "version": "1.0.0",
+  "description": "Manage domain and sub-domains with nodeJS",
+  "main": "app.js",
+  "scripts": {
+    "start": "supervisor app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anoltami/domain-nodeJS.git"
+  },
+  "author": "Julien Riffard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anoltami/domain-nodeJS/issues"
+  },
+  "homepage": "https://github.com/anoltami/domain-nodeJS#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-subdomain": "^1.0.4"
+  }
+}
